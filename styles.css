@@ -7,13 +7,29 @@ body {
     scroll-behavior: smooth;
 }
 
+header {
+    background-color: #004898; 
+}
+
+.Nav_Links {
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 header, footer {
    position: fixed;
    top: 0;
    right: 0;
    left: 0;
    z-index: 19;
-   background-color: #004898; 
+
 }
 
 section, article  {
