@@ -11,23 +11,44 @@
     src: url() format('truetype');
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: '', sans-serif;
     color: white;
-    background: #202731;
     scroll-behavior: smooth;
 }
 
-header {
-    background-color: #004898; 
+.bg_container {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(40deg, #4087d8, #230674,#052650, #0d889e);
+    background-size: 300% 300%;
+    animation: color 19s ease-in-out infinite;
+    z-index: 20;
 }
 
-.Logo {
-    margin: 0;
-    padding: 0.7em;
-    font-style: normal;
-    font-family: '', sans-serif;
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+header {
+    text-align: center;
+    height: 100%;
+    padding: 20px 0;
 }
 
 section {
@@ -39,31 +60,44 @@ section {
     padding: 100px 20vw;
 }
 
-.Nav_Links {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background-color: #f1f1f1;
-    /* For nav background*/
-  }
+nav {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Ensure spacing between h1 and ul */
+    align-items: center; /* Vertically align h1 and ul */
+    padding: 20px 0.7em;
+}
 
-.Nav_Links, li a { 
-    text-align: center;
+nav h1 {
+    text-align: left;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+ul {
     list-style-type: none;
-    display: inline-flex;
-    color: #000;
+    display: flex;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+ul li {
+    margin-left: 5px; /* Add space between list items */
+}
+
+nav a {
+    color: #fff;
     padding: 8px 16px;
+    text-align: center;
     text-decoration: none;
 }
 
-.Nav_Links a:hover {
-    background-color: #a4c9d3da;
+nav a:hover {
+    background-color: #3c7c8db4;
     color: white;
 }
 
 #About {
-    font-family: '';
-    font-style: normal;
+    opacity: 1;
 }
 
 .footers {
@@ -80,4 +114,3 @@ section {
     width: 100%;
     background-color: #004898;
 }
-

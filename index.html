@@ -5,50 +5,49 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="./styles.css" rel="stylesheet">
-        <title>My Portfolio </title>
-        
+        <title>My Portfolio</title>
     </head>
-    <body>
-        <header class="Container">
-            <h1 class="Logo">Welcome To My Portfolio!</h1>
-            <nav>
-                <ul class="Nav_Links">
-                    <li><a href = "index.html">Home</a></li>
-                    <li><a href = "projects.html">Contact</a></li>
-                    <li><a href = "#About" onclick="scrollToSection(event, 'About')">About</a></li>
-                    <li><a href = "projects.html">Projects</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section class="blue">
-            <h1>Nice Curves!</h1>
-            <p>A website is like a road. The more curves it has the more interesting it is.</p>
-          </section>
-      
-          <section>
-            <h1>Nice Curves!</h1>
-            <p>A website is like a road. The more curves it has the more interesting it is.</p>
-          </section>
+    <body class="bg_container">
+        <div>
+            <header class="Container"> 
+                <nav>
+                    <h1 id="NAME">Dihyah Adib - Web Developer</h1>
+                    <ul>
+                        <li><a href = "index.html">Home</a></li>
+                        <li><a href = "#footers" onclick="scrollToSection(event, 'footers')">Contact</a></li>
+                        <li><a href = "#About" onclick="scrollToSection(event, 'About')">About</a></li>
+                        <li><a href = "projects.html">Projects</a></li>
+                    </ul>
+                </nav>
+                <img src="" alt="pfp">
+            </header>
 
-        <section id="About">
-            <h1>Nice curves</h1>
-            <article >
-                <h2>About Me</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi 
-                    impedit eveniet, voluptatibus alias neque sequi incidunt nulla molestias distinctio 
-                    non, nesciunt et fugiat sint voluptates ipsam odit, iure autem similique?
-                </p>
-                <div class="curves"></div>
-            </article>
-        </section>
-        <footer>
-            <ul class = "footers" target="_blank">
-              <li><a target="_blank" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">Contact Us!</a></li>
-              <li>muhanddis4ever@gmail.com</li>
-              <li>CopyRights Reserved</li>
-            </ul>
-        </footer>
+            <main>
+                <section>
+                    <h1>Nice Curves!</h1>
+                    <p>A website is like a road. The more curves it has the more interesting it is.</p>
+                </section>
+      
+                <section>
+                    <h1>Nice Curves!</h1>
+                    <p>A website is like a road. The more curves it has the more interesting it is.</p>
+                </section>
+
+                <section id="About">
+                    <h2>About Me</h2>
+                    <p>A website is like a road. The more curves it has the more interesting it is.</p>
+                </section>
+            </main>
+
+            <footer>
+                <ul id="footers" class = "footers" target="_blank">
+                    <li><a target="_blank" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">Contact Us!</a></li>
+                    <li>muhanddis4ever@gmail.com</li>
+                    <li>CopyRights Reserved</li>
+                </ul>
+            </footer>
+        </div>
+
+        <script src="Script.js"></script>
     </body>
-    <script src="Script.js"></script>
 </html>
