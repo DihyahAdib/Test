@@ -1,5 +1,5 @@
 function scrollToSection(event, sectionId) {
-    event.preventDefault(); // Prevent default jump
+    event.preventDefault(); 
     document.getElementById(sectionId).scrollIntoView({
         behavior: 'smooth' // Smooth scrolling
     });
@@ -8,6 +8,6 @@ function scrollToSection(event, sectionId) {
 function scrollToSection(event, sectionId) {
     event.preventDefault();
     document.getElementById(sectionId).scrollIntoView({
-        behavior: 'smooth'
+        behavior: 'smooth' // Smooth scrolling
     });
 }

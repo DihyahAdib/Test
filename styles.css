@@ -26,7 +26,7 @@ body {
 .bg_container {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(38deg, #4087d8, #321d8f,#0a416e, #0d889e);
+    background: linear-gradient(38deg, #4087d9, #321d8f,#0a416e, #0d889e);
     background-size: 300% 300%;
     animation: color 17.5s ease-in-out infinite;
     z-index: 20;
