@@ -3,12 +3,12 @@
     src: url('./assets/Fonts/Nexa-ExtraLight.ttf') format('truetype');
 }
 @font-face {
-    font-family: '';
-    src: url() format('truetype');
+    font-family: 'Comfort';
+    src: url('./assets/Fonts/Comfortaa-Regular.ttf') format('truetype');
 }
 @font-face {
-    font-family: '';
-    src: url() format('truetype');
+    font-family: 'Dreams';
+    src: url('./assets/Fonts/CaviarDreams.ttf') format('truetype');
 }
 
 * {
@@ -26,12 +26,11 @@ body {
 .bg_container {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(40deg, #4087d8, #230674,#052650, #0d889e);
+    background: linear-gradient(38deg, #4087d8, #321d8f,#0a416e, #0d889e);
     background-size: 300% 300%;
-    animation: color 19s ease-in-out infinite;
+    animation: color 17.5s ease-in-out infinite;
     z-index: 20;
 }
-
 @keyframes color{
     0%{
         background-position: 0 50%;
@@ -86,6 +85,7 @@ ul li {
 }
 
 li a {
+    font-family: 'Comfort', sans-serif;
     border-radius: 20px 20px;
 }
 
@@ -97,7 +97,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #3c7c8db4;
+    background-color: #3062707a;
     color: white;
 }
 
