@@ -1,6 +1,6 @@
 @font-face {
-    font-family: '';
-    src: url() format('truetype');
+    font-family: 'Nexa';
+    src: url('/assets/Fonts/Nexa-ExtraLight.ttf') format('truetype');
 }
 @font-face {
     font-family: '';
@@ -112,5 +112,6 @@ nav a:hover {
     position: relative;
     bottom: 0;
     width: 100%;
-    background-color: #004898;
+    opacity: 0.860;
+    background-color: rgb(53, 53, 53);
 }
