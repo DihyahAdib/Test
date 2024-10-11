@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Nexa';
-    src: url('/assets/Fonts/Nexa-ExtraLight.ttf') format('truetype');
+    src: url('./assets/Fonts/Nexa-ExtraLight.ttf') format('truetype');
 }
 @font-face {
     font-family: '';
@@ -19,7 +19,6 @@
 
 body {
     margin: 0;
-    font-family: '', sans-serif;
     color: white;
     scroll-behavior: smooth;
 }
@@ -61,27 +60,33 @@ section {
 }
 
 nav {
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Ensure spacing between h1 and ul */
-    align-items: center; /* Vertically align h1 and ul */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
     padding: 20px 0.7em;
 }
 
 nav h1 {
+    font-family: 'Nexa', sans-serif;
+    font-size: 28px;
     text-align: left;
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    margin: 0;
+    padding: 0; 
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    margin: 0;
+    padding: 0;
 }
 
 ul li {
-    margin-left: 5px; /* Add space between list items */
+    margin-left: 5px;
+}
+
+li a {
+    border-radius: 20px 20px;
 }
 
 nav a {
