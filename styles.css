@@ -62,7 +62,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    padding: 20px 0.7em;
+    padding: 20px 0.75em;
 }
 
 nav h1 {
